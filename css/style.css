@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(119, 96, 223);
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  font-weight: 500; /* bold ou 500 */
+  text-decoration: none; /* tirar sublinhado */
+  margin-right: 30px; /* empurrar pra direita */
+  transition: transform 200ms linear;
+}
+
+a:hover {
+  transform: scale(1.03);
+}
+
+a::before {
+  content: ""; /* pra fazer o quadrado */ 
+  display: inline-block;
+  background-color: rgb(25, 5, 133);
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+#button {
+  display: inline-block; /* com display inline não da pra mudar altura, largura */
+  background-color: rgb(25, 5, 133);
+  padding: 18px 20px; 
+  box-shadow: 5px 5px 0 #000;
+  margin-right: 0px;
+  transition: transform 200ms linear;
+}
+
+#button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+
+
