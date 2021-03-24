@@ -1,9 +1,27 @@
 .banner {
+  box-sizing: border-box;
   background-image: url(../../assets/img/eu.png);
   background-repeat: no-repeat;
-  background-size: 70% 100%;
+  background-size: 85% 100%;
   background-attachment: fixed;
-  height: 800px;
+  height: 850px;
   border-bottom: 10px solid #000;
-  background-position-x: right;
+  background-position-x: center;
+  padding-top: 115px;
+  padding-left: 90px;
+}
+
+.banner .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 670px;
+}
+
+.banner .box {
+  margin-bottom: 40px;
+}
+
+.banner .navigation {
+  display: flex;
+  justify-content: space-around;
 }
