@@ -1,0 +1,9 @@
+.banner {
+  background-image: url(../../assets/img/eu.png);
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  background-attachment: fixed;
+  height: 800px;
+  border-bottom: 10px solid #000;
+  background-position-x: right;
+}
