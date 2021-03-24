@@ -1,0 +1,16 @@
+.button  {
+  display: inline-block; /* com display inline não da pra mudar altura, largura */
+  background-color: rgb(25, 5, 133);
+  padding: 18px 20px; 
+  box-shadow: 5px 5px 0 #000;
+  margin-right: 0px;
+  transition: transform 200ms linear;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}

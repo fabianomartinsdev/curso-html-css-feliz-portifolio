@@ -1,4 +1,4 @@
-#box {
+.box {
   display: inline-block;
   background-color: #3A4042;
   box-shadow: 10px 10px 0 #000;
@@ -6,6 +6,6 @@
   padding: 42px 44px;
 }
 
-#box h1 {             /* pegar todos os filhos dentro da box (espaço) */
+.box .title {             /* pegar todos os filhos dentro da box (espaço) */
   margin-bottom: 28px;
 }
