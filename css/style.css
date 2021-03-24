@@ -35,7 +35,7 @@ a::before {
   margin-right: 10px;
 }
 
-#button {
+#button  {
   display: inline-block; /* com display inline não da pra mudar altura, largura */
   background-color: rgb(25, 5, 133);
   padding: 18px 20px; 
@@ -47,6 +47,25 @@ a::before {
 #button:hover {
   transform: scale(1.05);
   opacity: 0.9;
+}
+
+.button1 {
+  display: inline-block; /* com display inline não da pra mudar altura, largura */
+  background-color: rgb(25, 5, 133);
+  padding: 18px 20px; 
+  box-shadow: 5px 5px 0 #000;
+  margin-left: 181px;
+  margin-right: 112px;
+  transition: transform 200ms linear;
+}
+
+.button2  {
+  display: inline-block; /* com display inline não da pra mudar altura, largura */
+  background-color: rgb(25, 5, 133);
+  padding: 18px 20px; 
+  box-shadow: 5px 5px 0 #000;
+  margin-right: 112px;
+  transition: transform 200ms linear;
 }
 
 
