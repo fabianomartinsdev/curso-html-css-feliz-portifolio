@@ -4,3 +4,10 @@
   color: rgb(119, 96, 223);
   text-shadow: 4px 4px 0 #000;
 }
+
+.title.-second {  /* classe de variação - */
+  color: white;
+  text-shadow: none;
+  text-align: center;
+}
+
