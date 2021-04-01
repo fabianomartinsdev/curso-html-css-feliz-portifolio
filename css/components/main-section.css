@@ -16,3 +16,7 @@
 .main-section.-bdFirst {
   border-color: rgb(25, 5, 133);
 }
+
+.main-section.-second {
+  padding-bottom: 50px;
+}
