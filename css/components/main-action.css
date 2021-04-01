@@ -1,4 +1,4 @@
-.action {
+.main-action {
   display: inline-flex;
   align-items: center;
   color: #fff;
@@ -10,11 +10,11 @@
   transition: transform 200ms linear;
 }
 
-.action:hover {
+.main-action:hover {
   transform: scale(1.03);
 }
 
-.action::before {
+.main-action::before {
   content: ""; /* pra fazer o quadrado */ 
   display: inline-block;
   background-color: rgb(25, 5, 133);
