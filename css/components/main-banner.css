@@ -3,12 +3,11 @@
   background-image: url(../../assets/img/eu.png);
   background-repeat: no-repeat;
   background-size: 85% 100%;
-  background-attachment: fixed;
   height: 850px;
   border-bottom: 10px solid #000;
   background-position-x: center;
-  padding-top: 115px;
-  padding-left: 90px;
+  padding-top: 530px;
+  padding-left: 150px;
 }
 
 .main-banner .wrapper {
