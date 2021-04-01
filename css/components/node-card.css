@@ -1,11 +1,19 @@
 .node-card {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
-.node-card::before {
-  content: "a";
+.node-card::before { /* linha tracejada */
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  height: 0px;
+  width: 50px;
+  border: 3px dashed #000;
+  transform: rotate(90deg) translateX(-60%);
+  bottom: 140px;
 }
 
 .node-card .title {
