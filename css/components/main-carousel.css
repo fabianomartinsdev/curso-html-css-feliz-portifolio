@@ -20,7 +20,7 @@
 .main-carousel::before{
   content: "";
   position: absolute;
-  left: 5px;  /* metade dos 80px do calc width */
+  left: 5px;
   top: 26px;
   display: block;
   border: 3px dashed #000;
@@ -39,4 +39,15 @@
 
 .main-carousel .button-arrow.-right {
   right: 15px;
+}
+
+.main-carousel .items {  /* div.itens foi feita pra criar transparência dos itens após a seta */
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-carousel .elements {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(400px);
 }
