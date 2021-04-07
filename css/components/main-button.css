@@ -8,12 +8,17 @@
   font-size: 20px;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .main-button:hover {
-  transform: scale(1.03);
+  transform: scale(1.08);
 }
 
 .main-button.-full {
   width: 100%;
+}
+
+.main-button.-full:hover {
+  transform: scale(1.02);
 }
