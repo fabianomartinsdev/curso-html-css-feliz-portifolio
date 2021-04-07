@@ -1,7 +1,30 @@
 .main-carousel {
+  display: flex;
+  justify-content: space-between;
   position: relative;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.main-carousel::after {
+  content: "";
+  position: absolute;
+  left: 40px;  /* metade dos 80px do calc width */
+  top: 26px;
+  display: block;
+  height: 6px;
+  width: calc(100% - 80px);
+  background-color: #000;
+}
+
+.main-carousel::before{
+  content: "";
+  position: absolute;
+  left: 5px;  /* metade dos 80px do calc width */
+  top: 26px;
+  display: block;
+  border: 3px dashed #000;
+  width: 99%;
 }
 
 .main-carousel .button-arrow {

@@ -4,11 +4,9 @@
   background-color: rgb(25, 5, 133);
   box-shadow: 5px 5px 0 #000;
   cursor: pointer;
-  transition: transform 200ms linear;
 }
 
 .button-arrow:hover {
-  transform: scale(1.05);
   opacity: 0.9;
 }
 
