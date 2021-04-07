@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="css/components/main-carousel.css">
   <link rel="stylesheet" href="css/components/main-footer.css">
   <link rel="stylesheet" href="css/components/main-input.css">
+  <link rel="stylesheet" href="css/components/main-label.css">
 
 </head>
 <body>
@@ -186,14 +187,19 @@
   </section>
 
   <section class="main-section -bgColorTwo">
+
     <h2 class="main-title -second">Contatos</h2>
-      <p class="main-text -second">Nome:</p>
-      <input class="main-input" type="text">
-      <p class="main-text -second">Email:</p>
-      <input class="main-input" type="email">
-      <p class="main-text -second">Mensagem:</p>
-      <input class="main-input -second" type="text">
-      <button class="main-button -second">Enviar</button>
+
+      <form action="">
+        <label for="name" class="main-label">Nome:</label>
+          <input id="name" type="text">
+        <label for="email" class="main-label">Email:</label>
+          <input id="email" type="email">
+        <label for="message" class="main-label">Mensagem:</label>
+          <textarea name="" id="message"></textarea>
+        <button class="main-button -second" type="submit">Enviar</button>
+      </form>
+
   </section>
 
   <footer class="main-footer">
