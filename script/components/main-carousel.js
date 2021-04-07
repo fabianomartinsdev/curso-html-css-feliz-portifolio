@@ -17,11 +17,11 @@ let pixels = 0;
 const btnLeft = document.querySelector('.button-arrow.-left');
 
 btnRight.addEventListener('click', function() {
-  pixels = pixels + 20;
+  pixels = pixels + 50;
   elements.style = `transform: translateX(${pixels}px)`;
 });
 
 btnLeft.addEventListener('click', function(){
-  pixels = pixels - 20;
+  pixels = pixels - 50;
   elements.style = `transform: translateX(${pixels}px)`;
 })
