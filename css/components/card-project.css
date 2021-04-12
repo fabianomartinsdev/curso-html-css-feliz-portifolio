@@ -5,7 +5,7 @@
   background-color: #7c5e99;
   width: 280px;
   height: 280px;
-  box-shadow: 9px 9px 0 #fff;
+  box-shadow: 9px 9px 0 rgba(0, 0, 0, 0.774);
 }
 
 .card-project.-blue {

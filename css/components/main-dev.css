@@ -1,0 +1,18 @@
+.main-dev {
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #d7dbd2;
+  border-radius: 10px;
+}
+
+.main-dev .subtitle {
+  color: #464744;
+  padding: 10px;
+}
+
+.main-dev .list {
+  list-style-type: none;
+  text-align: left;
+  line-height: 20px;
+}
